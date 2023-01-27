@@ -91,7 +91,7 @@ def plot_route(points, path, energys):
 
 
 if __name__ == '__main__':
-    points = np.array([[2, 6], [2, 4], [1, 3], [4, 6], [5, 5], [4, 4], [6, 4], [3, 2]])
+    points = np.array([[3, 3], [2, 7], [1, 5], [4, 6], [4, 4], [4, 2], [7, 3], [5, 4]])
     dist = distance(points)
     print(dist)
     N = len(points)
